@@ -1,0 +1,30 @@
+.wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  gap: 12px;
+  height: 100%;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.toggleWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 12px;
+}
+
+.icon {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-size: 12px;
+  height: inherit;
+  justify-content: center;
+}

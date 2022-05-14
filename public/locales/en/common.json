@@ -1,0 +1,27 @@
+{
+  "drawWords": [
+    "Rock",
+    "Paper",
+    "Scissors"
+  ],
+  "startWords": [
+    "Rock",
+    "Paper",
+    "Scissors"
+  ],
+  "アップデート": "Update",
+  "あなた": "You",
+  "あなたの勝ちです！": "You Win!",
+  "あなたの負けです…": "You Lose…",
+  "インストール": "Install",
+  "グー": "Rock",
+  "じゃんけん": "Rock Paper Scissors",
+  "しょ！": "Shoot!",
+  "スタート!": "Start!",
+  "チョキ": "Scissors",
+  "トップページへ": "Top page",
+  "パー": "Paper",
+  "ぽん！": "Shoot!",
+  "再戦する": "Rematch",
+  "相手": "Enemy"
+}
