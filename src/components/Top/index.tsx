@@ -21,7 +21,6 @@ function Top(): JSX.Element {
     appinstalled,
     canInstallprompt,
     enabledPwa,
-    enabledUpdate,
     isPwa,
     showInstallPrompt,
     unregister,
@@ -42,11 +41,6 @@ function Top(): JSX.Element {
         {!appinstalled && canInstallprompt && enabledPwa && !isPwa ? (
           <Button color="primary" onClick={showInstallPrompt}>
             {t("インストール")}
-          </Button>
-        ) : null}
-        {enabledUpdate && isPwa ? (
-          <Button color="primary" onClick={handleUpdate}>
-            {t("アップデート")}
           </Button>
         ) : null}
       </div>
