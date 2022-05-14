@@ -11,8 +11,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
+        />
         <link href="/manifest.json" rel="manifest" />
+        <link rel="apple-touch-icon" href="logo192.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />
